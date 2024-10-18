@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./Navbar";
-import images from "./anime1.png
 const Landing = () => {
   const style = {
     animation: "shake 5s ease-in-out infinite",
@@ -12,7 +11,7 @@ const Landing = () => {
       <div className="flex h-full m-10 relative flex-col text-white  items-center sm:flex-row ">
         <div className="flex flex-1 absolute  bottom-20 right-0 md:right-0 justify-center items-center">
           <img
-            src={images}
+            src='./anime1.png'
             style={style}
             alt="anime"
             className="image z-10"
