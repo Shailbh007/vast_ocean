@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import images from "./image/anime1.png
+import images from "./anime1.png
 const Landing = () => {
   const style = {
     animation: "shake 5s ease-in-out infinite",
