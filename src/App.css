@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+    height: 100vh;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+@keyframes shake {
+0% { transform: translateX(0); }
+10% { transform: translateX(-2px); }
+20% { transform: translateX(2px); }
+30% { transform: translateX(-4px); }
+40% { transform: translateX(4px); }
+50% { transform: translateX(0); }
+60% { transform: translateX(4px); }
+70% { transform: translateX(-4px); }
+80% { transform: translateX(2px); }
+90% { transform: translateX(-2px); }
+100% { transform: translateX(0); }}
